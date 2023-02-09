@@ -96,3 +96,5 @@ function isNumber(s) {
 function isAlphaNumeric(s) {
   return isAlphabet(s) || isNumber(s);
 }
+
+export { isOperator, isNumber, isAlphabet, isAlphaNumeric, isKeyword };
