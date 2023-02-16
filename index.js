@@ -20,4 +20,4 @@ tokens.map((token) => {
   });
 });
 
-log(" successfully tokenized!!");
+log(" successfully converted to JS!!");
