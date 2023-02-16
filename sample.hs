@@ -1,0 +1,1 @@
+agar ( a > b ) wapas 0;

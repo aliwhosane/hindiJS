@@ -68,7 +68,7 @@ class Sweeper {
         s = "";
       }
     }
-    this.tokens.push({ type: "EOF" });
+    this.tokens.push({ type: "EOF", value: "\n" });
     return this.tokens;
   }
 }

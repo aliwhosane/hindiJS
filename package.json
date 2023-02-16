@@ -1,0 +1,20 @@
+{
+  "name": "hindijs",
+  "version": "1.0.0",
+  "description": "A transpiler that converts the code back to plain javascriipt",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliwhosane/hindiJS.git"
+  },
+  "author": "ali.whosane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliwhosane/hindiJS/issues"
+  },
+  "homepage": "https://github.com/aliwhosane/hindiJS#readme"
+}
