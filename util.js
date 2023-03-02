@@ -99,15 +99,12 @@ const keywordList = [
   "yield",
 ];
 
-const keywordMap = {
-  agar: "if",
-  wapas: "return",
-};
-
 function isOperator(s) {
   const operatorList = [
     "=",
     "+",
+    "++",
+    "--",
     "-",
     "*",
     "/",
@@ -137,11 +134,4 @@ function isAlphaNumeric(s) {
   return isAlphabet(s) || isNumber(s);
 }
 
-export {
-  isOperator,
-  isNumber,
-  isAlphabet,
-  isAlphaNumeric,
-  isKeyword,
-  keywordMap,
-};
+export { isOperator, isNumber, isAlphabet, isAlphaNumeric, isKeyword };

@@ -1,1 +1,7 @@
-agar ( a > b ) wapas 0;
+
+var i  = 10;
+
+jabtak (i > 0) {
+    i--;
+    chaalu;
+}

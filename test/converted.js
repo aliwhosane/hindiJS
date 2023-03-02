@@ -1,2 +1,2 @@
-if ( a > b ) return 0 ; 
+var i = 10 ; while ( i > 0 ) { i -- ; continue ; } 
  

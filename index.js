@@ -1,6 +1,6 @@
 import Sweeper from "./sweeper.js";
 import fs from "fs";
-import { keywordMap } from "./util.js";
+import { keywordMap } from "./keywordMap.js";
 
 const log = console.log;
 

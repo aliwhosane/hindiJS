@@ -55,7 +55,8 @@ class Sweeper {
       }
 
       if (isOperator(s.trim()) && !isOperator(peek)) {
-        this.tokens.push({ type: "OPERATOR", value: s.trim() });
+        console.log(s);
+        this.tokens.push({ type: "OPERATOR", value: s });
         s = "";
       }
 
