@@ -47,5 +47,8 @@ export class Parser {
     }
 
     this.type = tt.eof;
+    this.value = null;
+    this.start = this.end = this.pos;
+    this.startLoc = this.endLoc = this.curPosition();
   }
 }
