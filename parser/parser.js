@@ -2,6 +2,15 @@ import { getOptions } from "./options.js";
 import { wordsRegExp } from "./util.js";
 import { reservedWords, keywords } from "./identifier.js";
 import { lineBreak } from "./whitespaces.js";
+import {
+  SCOPE_TOP,
+  SCOPE_FUNCTION,
+  SCOPE_ASYNC,
+  SCOPE_GENERATOR,
+  SCOPE_SUPER,
+  SCOPE_DIRECT_SUPER,
+  SCOPE_CLASS_STATIC_BLOCK,
+} from "./scopeflagsjs";
 
 export class Parser {
   constructor(options, input, startPos) {
