@@ -2,6 +2,7 @@ import { getOptions } from "./options.js";
 import { wordsRegExp } from "./util.js";
 import { reservedWords, keywords } from "./identifier.js";
 import { lineBreak } from "./whitespaces.js";
+import { types as tt } from "./tokenType.js";
 import {
   SCOPE_TOP,
   SCOPE_FUNCTION,
